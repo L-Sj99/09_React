@@ -1,0 +1,38 @@
+.info {
+  width: 25px;
+  border: 2px solid black;
+  margin: 10px 0;
+}
+
+.count-container{
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.count-container .btn {
+  width: 20px;
+  height: 20px;
+  background-color: beige;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.count-container .plus-btn{
+  border-color: bisque;
+  color: black;
+}
+
+.count-container .minus-btn{
+  border-color: bisque;
+  color: black;
+}
+
+.count-container h3 {
+  width: 40%;
+  height: 40%;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+}
