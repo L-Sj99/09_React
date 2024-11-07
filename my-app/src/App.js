@@ -7,6 +7,11 @@ import Props3 from './components/R05_Props3';
 import State1 from './components/R06_State1';
 import State2 from './components/R07_State2';
 import State3 from './components/R08_State3';
+import StateReview1 from './StateReview/State_Review1';
+import StateReview2 from './StateReview/State_Review2';
+import Context1 from './components/R09_Context1';
+import Context2 from './components/R10_Context2';
+import Context3 from './R11_Context3/Parent';
 
 // 기본적으로 //, /* */ 주석 사용 가능(JS라서)
 // 단, HTML 코드가 작성되는 영역에서는 {/* */} 주석 사용
@@ -31,11 +36,21 @@ function App() {
     {/* <hr/> */}
 
     {/* State */}
-    <State1 />
+    {/* <State1 /> */}
+    {/* <hr/> */}
+    {/* <State2 init='0'/> */}
+    {/* <hr/> */}
+    {/* <State3/> */}
+    {/* <StateReview1/> */}
+    {/* <hr/> */}
+    {/* <StateReview2/> */}
     <hr/>
-    <State2 init='0'/>
+    <Context1/>
     <hr/>
-    <State3/>
+    <Context2/>
+    <hr/>
+    <Context3/>
+
 
 
   </>
